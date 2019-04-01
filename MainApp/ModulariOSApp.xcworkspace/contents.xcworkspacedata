@@ -5,10 +5,10 @@
       location = "group:Features"
       name = "Features">
       <FileRef
-         location = "group:../NetworkCore/NetworkCore.xcodeproj">
+         location = "group:NetworkCore/NetworkCore.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:../Common/Common.xcodeproj">
+         location = "group:Common/Common.xcodeproj">
       </FileRef>
    </Group>
    <FileRef

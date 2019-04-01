@@ -28,6 +28,14 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+## Mac OSX
+.DS_Store
+.vscode/
+.idea/
+
+## Git
+*.orig
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace

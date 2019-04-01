@@ -12,11 +12,11 @@
 		6ED511DB22518C9E00CFC0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED511D922518C9E00CFC0A6 /* Main.storyboard */; };
 		6ED511DD22518CA100CFC0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED511DC22518CA100CFC0A6 /* Assets.xcassets */; };
 		6ED511E022518CA100CFC0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED511DE22518CA100CFC0A6 /* LaunchScreen.storyboard */; };
-		6ED5122822518EBD00CFC0A6 /* NetworkCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122722518EBD00CFC0A6 /* NetworkCore.framework */; };
-		6ED5122922518EBD00CFC0A6 /* NetworkCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122722518EBD00CFC0A6 /* NetworkCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6ED5122B22518EBD00CFC0A6 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122A22518EBD00CFC0A6 /* Common.framework */; };
-		6ED5122C22518EBD00CFC0A6 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122A22518EBD00CFC0A6 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6ED512542251979300CFC0A6 /* MainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED512532251979300CFC0A6 /* MainAppTests.swift */; };
+		6ED5125B2251B5D200CFC0A6 /* NetworkCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122722518EBD00CFC0A6 /* NetworkCore.framework */; };
+		6ED5125C2251B5D200CFC0A6 /* NetworkCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122722518EBD00CFC0A6 /* NetworkCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6ED5125D2251B5D200CFC0A6 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122A22518EBD00CFC0A6 /* Common.framework */; };
+		6ED5125E2251B5D200CFC0A6 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED5122A22518EBD00CFC0A6 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6ED5122D22518EBD00CFC0A6 /* Embed Frameworks */ = {
+		6ED5125F2251B5D300CFC0A6 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6ED5122922518EBD00CFC0A6 /* NetworkCore.framework in Embed Frameworks */,
-				6ED5122C22518EBD00CFC0A6 /* Common.framework in Embed Frameworks */,
+				6ED5125C2251B5D200CFC0A6 /* NetworkCore.framework in Embed Frameworks */,
+				6ED5125E2251B5D200CFC0A6 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,8 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED5122822518EBD00CFC0A6 /* NetworkCore.framework in Frameworks */,
-				6ED5122B22518EBD00CFC0A6 /* Common.framework in Frameworks */,
+				6ED5125B2251B5D200CFC0A6 /* NetworkCore.framework in Frameworks */,
+				6ED5125D2251B5D200CFC0A6 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 				6ED511CE22518C9E00CFC0A6 /* Sources */,
 				6ED511CF22518C9E00CFC0A6 /* Frameworks */,
 				6ED511D022518C9E00CFC0A6 /* Resources */,
-				6ED5122D22518EBD00CFC0A6 /* Embed Frameworks */,
+				6ED5125F2251B5D300CFC0A6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

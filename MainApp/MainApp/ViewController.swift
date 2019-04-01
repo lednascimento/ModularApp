@@ -7,6 +7,7 @@
 //
 
 import Common
+import NetworkCore
 
 class ViewController: UIViewController {
 
