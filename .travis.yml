@@ -1,0 +1,7 @@
+os:
+  - osx
+osx_image: xcode10.1
+language: swift
+script:
+  - set -o pipefail && xcodebuild clean build test -enableCodeCoverage YES -workspace ModulariOSApp.xcworkspace -scheme MainApp -sdk iphonesimulator12.1 -destination "OS=12.1,name=iPhone XR" | xcpretty
+  - xcodebuild -workspace ModulariOSApp.xcworkspace -scheme MainApp -sdk iphonesimulator12.1 -destination "OS=12.1,name=iPhone XR" test -enableCodeCoverage YES
