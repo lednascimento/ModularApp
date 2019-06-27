@@ -1,2 +1,2 @@
-# ModularApp
+# ModularAppPOC
 Modular App
